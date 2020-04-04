@@ -17,7 +17,7 @@ Do PHP zmergowano kod nowej funkcji `str_contains()`. Pojawi się ona w PHP 8.
 
 ## 2020-03-22
 
-### Nowa funkcja: get_debug_type() [\[RFC\]](https://wiki.php.net/rfc/get_debug_type)
+### Nowa funkcja: get_debug_type() [[RFC](https://wiki.php.net/rfc/get_debug_type)]
 Zatwierdzono RFC odnośnie funkcji `get_debug_type()`. Funkcja ta zwraca typ zmiennej, którą poda się w argumencie.
 
 ```php
