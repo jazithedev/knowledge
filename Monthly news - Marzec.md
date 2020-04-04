@@ -66,13 +66,13 @@ Rozpoczęło się głosowanie na temat wprowadzenia trzech nowych klas i interfe
 <span class="token punctuation">}</span>
 </code></pre>
 <p>Jak widać wyżej, każda z własności występuje w kodzie aż 4 razy. RFC proponuje zmniejszenie tego do:</p>
-<pre class=" language-php"><code class="prism  language-php"><span class="token keyword">class</span> <span class="token class-name">Point</span> <span class="token punctuation">{</span>
-    <span class="token keyword">public</span> <span class="token keyword">function</span> <span class="token function">__construct</span><span class="token punctuation">(</span>
-        <span class="token keyword">public</span> float <span class="token variable">$x</span> <span class="token operator">=</span> <span class="token number">0.0</span><span class="token punctuation">,</span>
-        <span class="token keyword">public</span> float <span class="token variable">$y</span> <span class="token operator">=</span> <span class="token number">0.0</span><span class="token punctuation">,</span>
-        <span class="token keyword">public</span> float <span class="token variable">$z</span> <span class="token operator">=</span> <span class="token number">0.0</span>
-    <span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
+<pre><code>class Point {
+    public function __construct(
+        public float $x = 0.0,
+        public float $y = 0.0,
+        public float $z = 0.0
+    ) {}
+}
 </code></pre>
 <p>Tego typu rozwiązanie zastosowane zostało już <a href="http://m.in">m.in</a>. w języku <a href="https://docs.hhvm.com/hack/classes/constructors#constructor-parameter-promotion">Hack</a>.</p>
 <h2 id="section-2">2020-03-28</h2>
