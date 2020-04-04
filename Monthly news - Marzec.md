@@ -97,6 +97,7 @@ Tego typu rozwiązanie zastosowane zostało już m.in. w języku [Hack](https://
 
 ## 2020-03-28
 
+### Przeciążanie operatorów [[RFC](https://wiki.php.net/rfc/userspace_operator_overloading)]
 Nadal trwa głosowanie nad drugim RFC dotyczącym [przeciążania operatorów w PHP](https://wiki.php.net/rfc/userspace_operator_overloading). Obecnie 30 osób jest za zaimplementowaniem tej funkcjonalności, a 16 przeciw. Prawdopodobnie w końcu uda się to przepchnąć do przodu :).
 
 ## 2020-03-31
@@ -120,3 +121,4 @@ $myObj->[
 ```
 
 Póki co zdecydowana większość głosujących jest za wdrożeniem tego pomysłu, a więc prawdopodobnie zostanie to wdrożone :). Więcej informacji o tej funkcjonalności w [RFC](https://wiki.php.net/rfc/compact-object-property-assignment).
+
