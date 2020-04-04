@@ -14,6 +14,9 @@ W skrócie:
 ### Nowa funkcja: [str_contains()](https://github.com/php/php-src/commit/1668ad7cb17213e67e42994e0c6911e302a3c3c5)
 Do PHP zmergowano kod nowej funkcji `str_contains()`. Pojawi się ona w PHP 8.
 
+
+## 2020-03-22
+
 ### Nowa funkcja: get_debug_type() [\[RFC\]](https://wiki.php.net/rfc/get_debug_type)
 Zatwierdzono RFC odnośnie funkcji `get_debug_type()`. Funkcja ta zwraca typ zmiennej, którą poda się w argumencie.
 
@@ -21,8 +24,6 @@ Zatwierdzono RFC odnośnie funkcji `get_debug_type()`. Funkcja ta zwraca typ zmi
 $x = "test";
 get_debug_type($x); // "string"
 ```
-
-## 2020-03-22
 
 ### Głosowanie na zmienne instancyjne "readonly" [[RFC](https://wiki.php.net/rfc/write_once_properties)]
 Rozpoczęło się głosowanie nad możliwością ustawienia własnościom klas trybu “readonly”.
