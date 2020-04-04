@@ -43,7 +43,7 @@ Powyższe klasy mają za zadanie umacnić programowanie obiektowe w PHP poprzez 
 
 ## 2020-03-26
 
-### Przecinek końcowy w liście parametrów [\[RFC\]](https://wiki.php.net/rfc/trailing_comma_in_parameter_list)
+### Przecinek końcowy w liście parametrów [[RFC](https://wiki.php.net/rfc/trailing_comma_in_parameter_list)]
 Utworzone zostało nowe RFC proponujące umożliwienie dodania przecinka końcowego w liście parametrów do funkcji oraz metod. Funkcja ta istnieje już od jakiegoś czasu dla tablic.
 
 ```php
@@ -60,7 +60,7 @@ class MyClass {
 }
 ```
 
-### Constructor Property Promotion [\[RFC\]](https://wiki.php.net/rfc/constructor_promotion)
+### Constructor Property Promotion [[RFC\](https://wiki.php.net/rfc/constructor_promotion)]
 Zaproponowano zmniejszenie boilerplate potrzebnego do określenia początkowych wartości zmiennych instancyjnych klas poprzez konstruktor. Przykład:
 
 ```php
