@@ -102,7 +102,7 @@ Nadal trwa głosowanie nad drugim RFC dotyczącym [przeciążania operatorów w 
 
 ## 2020-03-31
 
-#### Compact Object Property Assignment [RFC](https://wiki.php.net/rfc/compact-object-property-assignment)
+### Compact Object Property Assignment [[RFC](https://wiki.php.net/rfc/compact-object-property-assignment)]
 
 Ruszyło głosowanie w sprawie dodania do PHP 8.0 funkcjonalności kompaktowego przypisywania wartości własnościom obiektów (z ang. "Compact Object Property Assignment"). W skrócie o co chodzi:
 
