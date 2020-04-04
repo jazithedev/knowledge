@@ -60,7 +60,7 @@ class MyClass {
 }
 ```
 
-### Constructor Property Promotion [[RFC\](https://wiki.php.net/rfc/constructor_promotion)]
+### Constructor Property Promotion [[RFC](https://wiki.php.net/rfc/constructor_promotion)]
 Zaproponowano zmniejszenie boilerplate potrzebnego do określenia początkowych wartości zmiennych instancyjnych klas poprzez konstruktor. Przykład:
 
 ```php
