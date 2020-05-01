@@ -164,7 +164,7 @@ echo serialize($f);		// d:3.14
 echo json_encode($f);		// 3.14
 ```
 
-### 🆕 PHP Namespace in core [[RFC}(https://wiki.php.net/rfc/php-namespace-in-core)]
+### 🆕 PHP Namespace in core [[RFC](https://wiki.php.net/rfc/php-namespace-in-core)]
 Tak naprawdę to RFC zostało utworzone pod koniec ubiegłego miesiąca, ale dopiero teraz je zauważyłem. Jego celem jest wdrożenie globalnej przestrzeni nazw dla PHP pod przestrzenią `\PHP`, która jest zarezerwowana przez twórców od dłuższego już czasu. Póki co [trwa dość spora dyskusja](https://externals.io/message/109651) w tym temacie. Kto wie co jeszcze w tym temacie zostanie postanowione, lub zmienione :).
 
 ### 🆕 Stricter type checks for arithmetic/bitwise operators [[RFC](https://wiki.php.net/rfc/arithmetic_operator_type_checks)]
