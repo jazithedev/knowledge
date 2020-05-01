@@ -2,11 +2,11 @@
 # Kwiecień
 
 ## Najważniejsze
-- [Allow trailing comma in parameter list](#-%EF%B8%8F-allow-trailing-comma-in-parameter-list-rfc)
-- [Reclassifying engine warnings](#-%EF%B8%8F-reclassifying-engine-warnings-rfc)
+- [Allow trailing comma in parameter list](#--allow-trailing-comma-in-parameter-list-rfc)
+- [Reclassifying engine warnings](#--reclassifying-engine-warnings-rfc)
 - [Attributes v2](#--attributes-v2-rfc)
-- [Pipe Operator v2](#-allow-trailing-comma-in-parameter-list-rfc)
-- ["match" expression](#-allow-trailing-comma-in-parameter-list-rfc)
+- [Pipe Operator v2](#--pipe-operator-v2-rfc)
+- ["match" expression](#--match-expression-rfc)
 
 ## RFC - Zaakceptowane
 
