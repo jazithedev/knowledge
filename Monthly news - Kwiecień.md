@@ -13,15 +13,15 @@
 ### 🔥 ✔️ Allow trailing comma in parameter list [[RFC](https://wiki.php.net/rfc/trailing_comma_in_parameter_list)]
 W tym miesiącu przeprowadzono głosowanie w sprawie RFC odnoszącego się do wprowadzenia przecinka końcowego w liście parametrów. Tylko jedna osoba była przeciwna wprowadzeniu tej zmiany. Na szczęście pojawi się w nadchodzącym PHP 8 :).
 
-### 🔥 ✅ Reclassifying engine warnings [[RFC](https://wiki.php.net/rfc/engine_warnings)]
+### 🔥 ✔️ Reclassifying engine warnings [[RFC](https://wiki.php.net/rfc/engine_warnings)]
 Od jakiegoś już czasu w PHP do wyrzucania błędów w większości korzysta się z wyjątków "Error". Korzysta z tego zarówno core języka, jak i w częściach pisanych przez programistów. Istnieje jednak jeszcze parę miejsc, w których core wyrzuca błędy typu _"Notice"_ lub _"Warning"_ . Takimi przykładami może być chociażby odwoływanie się do nieistniejącej zmiennej, albo poniższy kod:
-```
+```php
 $x = null;
 $y = $x['foo']; // produkuje "Notice"
 ```
 W drugiej połowie 2019 roku Nikita Popov postanowiła podejść do tego problemu, i zaproponowała nową [modyfikację](https://wiki.php.net/rfc/engine_warnings) do PHP. Chodzi o przemianę niektórych błędów typu _"Notice"_ na _"Warning"_, a _"Warning"_ na _"Error exception"_. Choć temat powstał już dość dawno, to dopiero w tym miesiącu został zatwierdzony w trakcie głosowania. Trzeba więc liczyć się z tym, że od PHP 8, między innymi, odwoływanie się do nieistniejącej zmiennej wywoła _"Error exception"_ :). Listę wszystkich zmian znajdziecie na stronie tego [[RFC](https://wiki.php.net/rfc/engine_warnings)].
 
-### ✅ throw expression [[RFC](https://wiki.php.net/rfc/throw_expression)]
+### ✔️ throw expression [[RFC](https://wiki.php.net/rfc/throw_expression)]
 W poprzednim miesiącu utworzono RFC rozszerzające możliwości wyrzucania wyjątków (nazwałbym to "syntax sugar"). Natomiast 19 kwietnia to RFC zostało zaakceptowane, i ogłoszono jego wdrożenie do PHP 8. Dla przypomnienia, oto nowe możliwości, jakie czekają nas w nowej wersji:
 
 ```php
@@ -37,7 +37,7 @@ $condition and throw new Exception();
 $condition or throw new Exception();
 ```
 
-### ✅ Deprecations for PHP 8.0 [[RFC](https://wiki.php.net/rfc/deprecations_php_8_0)]
+### ✔️ Deprecations for PHP 8.0 [[RFC](https://wiki.php.net/rfc/deprecations_php_8_0)]
 Od wersji PHP 8.0 nadawanie parametrów opcjonalnych przed wymaganymi w definicjach funkcji lub metod będzie uznawane jako "deprecated". Po utworzeniu takiego kodu:
 
 ```php
