@@ -2,9 +2,9 @@
 # Kwiecień
 
 ## Najważniejsze
-- [Allow trailing comma in parameter list](#-allow-trailing-comma-in-parameter-list-rfc)
-- [Reclassifying engine warnings](#-allow-trailing-comma-in-parameter-list-rfc)
-- [Attributes v2](#-allow-trailing-comma-in-parameter-list-rfc)
+- [Allow trailing comma in parameter list](#-%EF%B8%8F-allow-trailing-comma-in-parameter-list-rfc)
+- [Reclassifying engine warnings](#-%EF%B8%8F-reclassifying-engine-warnings-rfc)
+- [Attributes v2](#--attributes-v2-rfc)
 - [Pipe Operator v2](#-allow-trailing-comma-in-parameter-list-rfc)
 - ["match" expression](#-allow-trailing-comma-in-parameter-list-rfc)
 
@@ -109,7 +109,7 @@ $condition or throw new Exception();
 
 ## RFC - Nowe
 
-### 🔥 Pipe Operator v2 [[RFC](https://wiki.php.net/rfc/pipe-operator-v2)]
+### 🔥 🆕 Pipe Operator v2 [[RFC](https://wiki.php.net/rfc/pipe-operator-v2)]
 Przywrócony został temat wdrożenia operatora "pipe" w PHP. Wcześniej poruszono go aż 4 lata temu pod [TYM RFC](https://wiki.php.net/rfc/pipe-operator). Kto nie jest zaznajomiony, chodzi o możliwość przedstawienia kompozycji wielu funkcji:
 
 ```php
