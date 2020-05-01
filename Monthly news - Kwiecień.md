@@ -10,7 +10,7 @@
 
 ## RFC - Zaakceptowane
 
-### 🔥 ✅ Allow trailing comma in parameter list [[RFC](https://wiki.php.net/rfc/trailing_comma_in_parameter_list)]
+### 🔥 ✔️ Allow trailing comma in parameter list [[RFC](https://wiki.php.net/rfc/trailing_comma_in_parameter_list)]
 W tym miesiącu przeprowadzono głosowanie w sprawie RFC odnoszącego się do wprowadzenia przecinka końcowego w liście parametrów. Tylko jedna osoba była przeciwna wprowadzeniu tej zmiany. Na szczęście pojawi się w nadchodzącym PHP 8 :).
 
 ### 🔥 ✅ Reclassifying engine warnings [[RFC](https://wiki.php.net/rfc/engine_warnings)]
