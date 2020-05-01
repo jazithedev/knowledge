@@ -2,11 +2,11 @@
 # Kwiecień
 
 ## Najważniejsze
-- [Allow trailing comma in parameter list](#-%EF%B8%8F-allow-trailing-comma-in-parameter-list-rfc)
-- [Reclassifying engine warnings](#-%EF%B8%8F-reclassifying-engine-warnings-rfc)
-- [Attributes v2](#--attributes-v2-rfc)
-- [Pipe Operator v2](#--pipe-operator-v2-rfc)
-- ["match" expression](#--match-expression-rfc)
+- Zaakceptowane: [Allow trailing comma in parameter list](#-%EF%B8%8F-allow-trailing-comma-in-parameter-list-rfc)
+- Zaakceptowane: [Reclassifying engine warnings](#-%EF%B8%8F-reclassifying-engine-warnings-rfc)
+- Głosowanie: [Attributes v2](#--attributes-v2-rfc)
+- Odrzucone: [Pipe Operator v2](#--pipe-operator-v2-rfc)
+- Odrzucone: ["match" expression](#--match-expression-rfc)
 
 ## RFC - Zaakceptowane
 
@@ -170,7 +170,7 @@ Tak naprawdę to RFC zostało utworzone pod koniec ubiegłego miesiąca, ale dop
 ### 🆕 Stricter type checks for arithmetic/bitwise operators [[RFC](https://wiki.php.net/rfc/arithmetic_operator_type_checks)]
 Nikita Popov stworzyła [RFC](https://wiki.php.net/rfc/arithmetic_operator_type_checks) z kolejną poprawką do PHP. RFC proponuje wyrzucanie błędów gdy dokonuje się operacji arytmetycznych lub bitowych na tablicach, referencjach lub obiektach. Przykładową, błędną implementacją jest chociażby poniższy kod:
 
-```
+```php
 var_dump([] % [42]); // int(0)
 ```
 
@@ -179,7 +179,7 @@ Więcej informacji [TUTAJ](https://wiki.php.net/rfc/arithmetic_operator_type_che
 
 ### 🆕 Always available JSON extension [[RFC](https://wiki.php.net/rfc/always_enable_json)]
 Powstało RFC proponujące, aby rozszerzenie PHP JSON było niemożliwe do wyłączenia od PHP 8. W chwili obecnej jest to możliwe przy pomocy:
-```
+```bash
 ./configure –disable-json
 ```
 
