@@ -1,5 +1,5 @@
 
-# Kwiecień
+# Monthly news - Kwiecień
 
 ## Najważniejsze
 - Zaakceptowane: [Allow trailing comma in parameter list](#-%EF%B8%8F-allow-trailing-comma-in-parameter-list-rfc)
