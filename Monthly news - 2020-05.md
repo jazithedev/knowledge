@@ -2,13 +2,13 @@
 # Monthly news - Maj
 
 ## Najważniejsze
-- Zaakceptowane: [Attributes v2](#--attributes-v2-rfc)
-- Zaakceptowane [Mixed Type v2]()
-- Zaakceptowane: [non-capturing catches]()
-- W trakcie głosowania: [Ensure correct signatures of magic methods](#--named-arguments-rfc)
-- Nowe: [Named Arguments](#--named-arguments-rfc)
-- Nowe: ["Deprecated" Attribute](#--named-arguments-rfc)
-- Nowe: [Match expression v2](#--match-expression-v2-rfc)
+- Zaakceptowane: [Attributes v2](#-%EF%B8%8F-attributes-v2-rfc)
+- Zaakceptowane [Mixed Type v2](#-%EF%B8%8F-mixed-type-v2-rfc)
+- Zaakceptowane: [non-capturing catches](#-%EF%B8%8F-non-capturing-catches-rfc)
+- W trakcie głosowania: [Ensure correct signatures of magic methods](#--ensure-correct-signatures-of-magic-methods-rfc)
+- Nowe: [Named Arguments](#---named-arguments-rfc)
+- Nowe: ["Deprecated" Attribute](#---deprecated-attribute-rfc)
+- Nowe: [Match expression v2](#---match-expression-v2-rfc)
 - Odrzucone: [Match expression](#--match-expression-rfc)
 
 ## RFC - Zaakceptowane
