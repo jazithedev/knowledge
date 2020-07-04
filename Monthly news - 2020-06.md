@@ -32,13 +32,13 @@ match ($pressedKey) {
 };
 ```
 
-### 🔥 ✅ Shorter Attribute Syntax [[RFC](https://wiki.php.net/rfc/shorter_attribute_syntax)]
+### 🔥 ✔️ Shorter Attribute Syntax [[RFC](https://wiki.php.net/rfc/shorter_attribute_syntax)]
 Nie kończą się tematy odnoszące się do zatwierdzonego już wdrożenia atrybutów do PHP 8. W głównej mierze odnoszą się one do czytelności składni, która wydaje się problematyczna do pisania, oraz przy jej odczytywaniu. Autor RFC zaproponował zrezygnować z wzoru `<<Atrybut>>` na rzecz `@@Atrybut`, co ma ułatwić wiele spraw. Niektórzy zaczęli nawet nazywać tą pierwszą wersję operatorem AT-AT.
 <center>
 <img src="https://vignette.wikia.nocookie.net/starwars/images/f/ff/AT-AT.jpg/revision/latest/scale-to-width-down/340?cb=20160820193312&path-prefix=pl" alt="AT-AT" />
 </center>
 
-### ✅ Attribute Amendments [[RFC](https://wiki.php.net/rfc/attribute_amendments)]
+### ✔️ Attribute Amendments [[RFC](https://wiki.php.net/rfc/attribute_amendments)]
 Po zaakceptowaniu RFC wprowadzającego atrybuty, pozostało jeszcze parę kwestii do zoptymalizowania:
 
 #### Grupowanie atrybutów
@@ -120,7 +120,7 @@ class Route
 }
 ```
 
-### ✅ Ensure correct signatures of magic methods [[RFC](https://wiki.php.net/rfc/magic-methods-signature)]
+### ✔️ Ensure correct signatures of magic methods [[RFC](https://wiki.php.net/rfc/magic-methods-signature)]
 Zaakceptowano RFC wdrażające typy dla większości magicznych metod w PHP.
 ```php
 Foo::__call(string $name, array $arguments): mixed;
@@ -138,7 +138,7 @@ Foo::__unset(string $name): void;
 Foo::__wakeup(): void;
 ```
 
-### ✅ Make sorting stable [[RFC](https://wiki.php.net/rfc/stable_sorting)]
+### ✔️ Make sorting stable [[RFC](https://wiki.php.net/rfc/stable_sorting)]
 Do PHP wdrożono ustabilizowanie sortowania.
 
 ```php
@@ -159,7 +159,7 @@ asort($array);
 ['a' => 0, 'b' => 0, 'c' => 1, 'd' => 1]
 ```
 
-### ✅ Remove inappropriate inheritance signature checks on private methods [[RFC](https://wiki.php.net/rfc/inheritance_private_methods)]
+### ✔️ Remove inappropriate inheritance signature checks on private methods [[RFC](https://wiki.php.net/rfc/inheritance_private_methods)]
 W PHP istnieje kod sprawdzający, czy metoda prywatna jest nadpisywana przez klasę podrzędną. 
 ```php
 class A 
