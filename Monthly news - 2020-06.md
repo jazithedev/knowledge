@@ -2,10 +2,10 @@
 # Monthly news - Czerwiec
 
 ## Najważniejsze
-- Zaakceptowane: [Match expression v2](#---match-expression-v2-rfc)
-- Zaakceptowane: [Shorter Attribute Syntax](#--shorter-attribute-syntax)
-- W trakcie głosowania: [Rename T_PAAMAYIM_NEKUDOTAYIM](#)
-- Nowe: [Nullsafe operator](#--nullsafe-operator)
+- Zaakceptowane: [Match expression v2](#-%EF%B8%8F-match-expression-v2-rfc)
+- Zaakceptowane: [Shorter Attribute Syntax](#-%EF%B8%8F-shorter-attribute-syntax-rfc)
+- W trakcie głosowania: [Rename T_PAAMAYIM_NEKUDOTAYIM](#--rename-t_paamayim_nekudotayim-rfc)
+- Nowe: [Nullsafe operator](#--nullsafe-operator-rfc)
 
 ## RFC - Zaakceptowane
 
