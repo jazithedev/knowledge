@@ -9,7 +9,7 @@
 
 ## RFC - Zaakceptowane
 
-### 🔥 ✅  Match expression v2 [[RFC](https://wiki.php.net/rfc/match_expression_v2)]
+### 🔥 ✔️ Match expression v2 [[RFC](https://wiki.php.net/rfc/match_expression_v2)]
 Wyrażenie `match` zawita do PHP :). Stało się to dopiero po drugim głosowaniu nad tą funkcjonalnością.
 
 ```php
