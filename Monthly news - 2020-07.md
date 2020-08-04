@@ -15,7 +15,7 @@ Dnia 24 lipca zdecydowaną większością (57 głosów "za", 18 "przeciw") zosta
 // W chwili obecnej:
 array_fill(0, 100, 50);
  
-// Możliwe o PHP 8:
+// Możliwe od PHP 8:
 array_fill(start_index: 0, num: 100, value: 50);
 ```
 
