@@ -11,6 +11,14 @@
 ### 🔥 ✔️ Named Arguments [[RFC](https://wiki.php.net/rfc/named_params)]
 Dnia 24 lipca zdecydowaną większością (57 głosów "za", 18 "przeciw") zostało przegłosowane wprowadzenie nazwanych argumentów do PHP. Jest to kolejna dość spora funkcjonalność, której w tym języku nie było. Osobiście cieszę się z nowej opcji, ale wielu boi się, że będzie ona wykorzystywana w niepoprawny sposób. Czas pokaże :).
 
+```php
+// W chwili obecnej:
+array_fill(0, 100, 50);
+ 
+// Możliwe o PHP 8:
+array_fill(start_index: 0, num: 100, value: 50);
+```
+
 ### 🔥 ✔️ Nullsafe operator [[RFC](https://wiki.php.net/rfc/nullsafe_operator)]
 Wszyscy dobrze wiemy jak czasami irytujące jest upewnianie się, czy zmienna jest lub nie jest `null`.
 ```php
