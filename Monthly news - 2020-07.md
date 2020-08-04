@@ -2,9 +2,9 @@
 # Monthly news - Czerwiec
 
 ## Najważniejsze
-- Zaakceptowane: [Named Arguments](#-%EF%B8%8F-match-expression-v2-rfc)
-- Zaakceptowane: [Nullsafe operator](#-%EF%B8%8F-shorter-attribute-syntax-rfc)
-- Odrzucone: [Strict operators directive](#--nullsafe-operator-rfc)
+- Zaakceptowane: [Named Arguments](#-%EF%B8%8F-named-arguments-rfc)
+- Zaakceptowane: [Nullsafe operator](#-%EF%B8%8F-nullsafe-operator-rfc)
+- Odrzucone: [Strict operators directive](#---strict-operators-directive-rfc)
 
 ## RFC - Zaakceptowane
 
