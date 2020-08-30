@@ -8,7 +8,7 @@
 
 ## RFC - Zaakceptowane
 
-### 🔥 ✔️ Named Arguments [[RFC](https://wiki.php.net/rfc/named_params)]
+### 🔥 ✅ Named Arguments [[RFC](https://wiki.php.net/rfc/named_params)]
 Dnia 24 lipca zdecydowaną większością (57 głosów "za", 18 "przeciw") zostało przegłosowane wprowadzenie nazwanych argumentów do PHP. Jest to kolejna dość spora funkcjonalność, której w tym języku nie było. Osobiście cieszę się z nowej opcji, ale wielu boi się, że będzie ona wykorzystywana w niepoprawny sposób. Czas pokaże :).
 
 ```php
@@ -19,7 +19,7 @@ array_fill(0, 100, 50);
 array_fill(start_index: 0, num: 100, value: 50);
 ```
 
-### 🔥 ✔️ Nullsafe operator [[RFC](https://wiki.php.net/rfc/nullsafe_operator)]
+### 🔥 ✅ Nullsafe operator [[RFC](https://wiki.php.net/rfc/nullsafe_operator)]
 Wszyscy dobrze wiemy jak czasami irytujące jest upewnianie się, czy zmienna jest lub nie jest `null`.
 ```php
 $country =  null;
@@ -39,7 +39,7 @@ Na tego typu problemy w Javascript ES2020 wprowadzono operator `?.`. Ktoś chyba
 $country = $session?->user?->getAddress()->country;
 ```
 
-### ✔️ Saner numeric strings [[RFC](https://wiki.php.net/rfc/saner-numeric-strings)]
+### ✅ Saner numeric strings [[RFC](https://wiki.php.net/rfc/saner-numeric-strings)]
 Zasugerowano modyfikację logiki interpretowania łańcuchów znaków zawierających liczby. W chwili obecnej taki łańcuch, który zawiera liczby, może być interpretowany na wiele sposobów, i posiada wiele nieprzewidywalnych zachowań:
 ```php
 var_dump("123" == "123.0");  // bool(true)
@@ -59,7 +59,7 @@ foo("string"); // TypeError
 ```
 
 Zadaniem tego RFC jest ograniczenie ilości sposobów interpretowania "numerycznego łańcucha znaków" do takiego stopnia, aby w jego skład wchodziły tylko te łańcuchy, które mają białe znaki przed lub po oraz tylko liczby. Reszta powinna wyrzucać błąd `TypeError`.
-### ✔️ Saner string to number comparisons [[RFC](https://wiki.php.net/rfc/string_to_number_comparison)]
+### ✅ Saner string to number comparisons [[RFC](https://wiki.php.net/rfc/string_to_number_comparison)]
 Nikita Popov przy pomocy tego RFC wprowadzi nieco bardziej oczywiste zachowanie przy porównywaniu łańcuchów znaków z liczbami.
 ```
 Comparison    | Before | After
@@ -76,7 +76,7 @@ Zmiany mają dotyczyć:
 - funkcji `in_array()`, `array_search()` i `array_keys()` z `$strict` ustawionym na `false` (wartość domyślna);
 - funkcji sortujące `sort()`, `rsort()`, `asort()`, `arsort()` oraz `array_multisort()` z `$sort_flags` ustawioną na `SORT_REGULAR` (wartość domyślna).
 
-### ✔️ Allow trailing comma in closure use lists [[RFC](https://wiki.php.net/rfc/trailing_comma_in_closure_use_list)]
+### ✅ Allow trailing comma in closure use lists [[RFC](https://wiki.php.net/rfc/trailing_comma_in_closure_use_list)]
 Zmieniono już wiele miejsc, gdzie dopuszczane jest dodawanie "trailing commas", lecz występują jeszcze miejsca, gdzie nie jest to możliwe.  Takim miejscem jest chociażby `use` przy funkcjach. Jednakże i tutaj zostanie to uzupełnione, gdyż 29 lipca w pełni pozytywnie przegłosowano tą zmianę :).
 
 ```php
@@ -93,7 +93,7 @@ $longArgs_longVars = function (
 };
 ```
 
-### ✔️ Configurable string length in getTraceAsString() [[RFC](https://wiki.php.net/rfc/throwable_string_param_max_len)]
+### ✅ Configurable string length in getTraceAsString() [[RFC](https://wiki.php.net/rfc/throwable_string_param_max_len)]
 W chwili obecnej poniższe metody zwracają zawartości o maksymalnej długości do 15 bajtów:
 - `Throwable->getTraceAsString()`
 - `Throwable->__toString()`
@@ -102,7 +102,7 @@ RFC proponuje, aby ta długość była możliwa do skonfigurowania przy pomocy n
 zend.exception_string_param_max_len=15
 ```
 
-### ✔️ Treat namespaced names as single token [[RFC](https://wiki.php.net/rfc/namespaced_names_as_token)]
+### ✅ Treat namespaced names as single token [[RFC](https://wiki.php.net/rfc/namespaced_names_as_token)]
 Obecnie PHP traktuje przestrzenie nazw jako sekwencję identyfikatorów. RFC proponuje zmianę tego w taki sposób, aby cała przestrzeń nazw była traktowana jako jeden token. Głównym celem jest zabezpieczenie przypadków, w których używane są w przestrzeniach nazw słowa zarezerwowane w PHP. Na przykład, od PHP 7.4 istnieje zarezerwowane słowo klucze `fn`. Zewnętrzna biblioteka posiadająca przestrzeń nazw zawierającą to słowo klucze będzie wyrzucać błąd "Fatal".
 
 Przykład:
@@ -116,7 +116,7 @@ W skrócie: RFC zabezpieczy wsteczną kompatybilność na nowsze wersje PHP z no
 
 Więcej szczegółów znajdziecie w [zawartości tego RFC](https://wiki.php.net/rfc/shorter_attribute_syntax) 🙂.
 
-### ✔️ Don't automatically unserialize Phar [[RFC](https://wiki.php.net/rfc/phar_stop_autoloading_metadata)]
+### ✅ Don't automatically unserialize Phar [[RFC](https://wiki.php.net/rfc/phar_stop_autoloading_metadata)]
 Jak się okazuje, przez wykonanie tego kodu:
 ```php
 file_exists("phar://...somepath.extension/file/within/phar.ext")
