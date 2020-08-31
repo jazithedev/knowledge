@@ -1,5 +1,5 @@
 
-# Monthly news - Czerwiec
+# Monthly news - Lipiec
 
 ## Najważniejsze
 - Zaakceptowane: [Named Arguments](#-%EF%B8%8F-named-arguments-rfc)
