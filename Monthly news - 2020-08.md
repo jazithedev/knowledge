@@ -1,5 +1,5 @@
 
-# Monthly news - Czerwiec
+# Monthly news - Sierpień
 
 ## RFC - W trakcie głosowania
 
