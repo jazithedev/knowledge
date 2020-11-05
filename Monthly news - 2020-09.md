@@ -2,8 +2,8 @@
 # Monthly news - Wrzesień/Październik
 
 ## Najważniejsze
-- Zaakceptowane: [Shorter Attribute Syntax Change](#-%EF%B8%8F-named-arguments-rfc)
-- Nowe: [Short Functions](#-%EF%B8%8F-named-arguments-rfc)
+- Zaakceptowane: [Shorter Attribute Syntax Change](#--shorter-attribute-syntax-change-rfc)
+- Nowe: [Short Functions](#--short-functions-rfc)
 
 ## RFC - Zaakceptowane
 
