@@ -2,7 +2,7 @@
 # Monthly news - Listopad
 
 ## Najważniejsze
-- Nowe: [Support for <func>::function](#--shorter-attribute-syntax-change-rfc)
+- Nowe: [Support for <func>::function](#-support-for-function-syntax-rfc)
 
 ## PHP 8.0
 Zgodnie z zapowiedzianą datą premiery, opublikowano PHP 8.0!
