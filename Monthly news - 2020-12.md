@@ -2,7 +2,7 @@
 # Monthly news - Grudzień 2020
 
 ## Najważniejsze
-- Nowe: [Enumberations](#-enumerations-rfc)
+- Nowe: [Enumerations](#-enumerations-rfc)
 - Nowe: [Fibers](#-fibers-rfc)
 
 ## RFC - W trakcie głosowania
