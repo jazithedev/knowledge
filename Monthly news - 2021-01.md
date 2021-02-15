@@ -2,8 +2,8 @@
 # Monthly news - Styczeń 2021
 
 ## Najważniejsze
-- W trakcie głosowania: [Array unpacking with string keys](#-enumerations-rfc)
-- Nowe: [Object keys in arrays](#-fibers-rfc)
+- W trakcie głosowania: [Array unpacking with string keys](#-array-unpacking-with-string-keys-rfc)
+- Nowe: [Object keys in arrays](#-object-keys-in-arrays-rfc)
 
 ## RFC - Zaakceptowane
 
