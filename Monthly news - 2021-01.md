@@ -48,7 +48,7 @@ function is_array_and_list(mixed $value): bool {
 }
 ```
 
-### 🆕 Array unpacking with string keys [[RFC](https://wiki.php.net/rfc/array_unpacking_string_keys)]
+### ✅ Array unpacking with string keys [[RFC](https://wiki.php.net/rfc/array_unpacking_string_keys)]
 RFC ma rozszerzyć możliwości operatora "spread":
 ```php
 $array1 = ["a" => 1];
