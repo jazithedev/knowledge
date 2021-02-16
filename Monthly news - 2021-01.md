@@ -59,14 +59,6 @@ var_dump($array); // ["a" => 2]
 
 ## RFC - W trakcie głosowania
 
-### 🚧 Array unpacking with string keys [[RFC](https://wiki.php.net/rfc/array_unpacking_string_keys)]
-RFC ma rozszerzyć możliwości operatora "spread":
-```php
-$array1 = ["a" => 1];
-$array2 = ["a" => 2];
-$array = ["a" => 0, ...$array1, ...$array2];
-var_dump($array); // ["a" => 2]
-```
 ### 🚧 Dump results of expressions in `php -a` [[RFC](https://wiki.php.net/rfc/readline_interactive_shell_result_function)]
 Zaproponowano inne prezentowanie danych wyjściowych w przypadku korzystania z `php -a`.
 
