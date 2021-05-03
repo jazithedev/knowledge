@@ -2,11 +2,11 @@
 # Monthly news - Luty/Kwiecień 2021
 
 ## Najważniejsze
-- Zaakceptowane: [Fibers](#-fibers-rfc)
-- Zaakceptowane: [Enumerations](#-enumerations-rfc)
-- Zaakceptowane: [Pure Intersection types](#-enumerations-rfc)
-- Zaakceptowane: [Partial Function Application](#-enumerations-rfc)
-- Zaakceptowane: [Auto-capturing multi-statement closures](#-enumerations-rfc)
+- Zaakceptowane: [Fibers](#--fibers-rfc)
+- Zaakceptowane: [Enumerations](#--enumerations-rfc)
+- Zaakceptowane: [Pure Intersection types](#--pure-intersection-types--rfc)
+- Zaakceptowane: [Partial Function Application](#--partial-function-application-rfc)
+- Zaakceptowane: [Auto-capturing multi-statement closures](#--auto-capturing-multi-statement-closures-rfc)
 
 ## RFC - Zaakceptowane
 
