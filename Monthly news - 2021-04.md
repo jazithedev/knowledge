@@ -4,9 +4,10 @@
 ## Najważniejsze
 - Zaakceptowane: [Fibers](#--fibers-rfc)
 - Zaakceptowane: [Enumerations](#--enumerations-rfc)
-- Zaakceptowane: [Pure Intersection types](#--pure-intersection-types--rfc)
-- Zaakceptowane: [Partial Function Application](#--partial-function-application-rfc)
-- Zaakceptowane: [Auto-capturing multi-statement closures](#--auto-capturing-multi-statement-closures-rfc)
+- Nowe: [Pure Intersection types](#--pure-intersection-types--rfc)
+- Nowe: [Partial Function Application](#--partial-function-application-rfc)
+- Nowe: [Short Functions](#--short-functions-rfc)
+- Nowe: [Auto-capturing multi-statement closures](#--auto-capturing-multi-statement-closures-rfc)
 
 ## RFC - Zaakceptowane
 
@@ -201,11 +202,25 @@ $partial = whole(?, 2);
 $result = $partial(1);
 ```
 
+### 🆕 🔥 Short Functions [[RFC](https://wiki.php.net/rfc/short-functions)]
+RFC, którego celem jest umożliwienie tworzenie nazwanych funkcji/metod w skróconej formie:
+```php
+function add(int $a, int $b): int => $a + $b;
+
+class Adder
+{
+    public function add(int $in): int => $in + $this->val;
+}
+```
+
 ### 🆕 🔥 Auto-capturing multi-statement closures [[RFC](https://wiki.php.net/rfc/auto-capture-closure)]
-W chwili obecnej PHP daje możliwość zdefiniowania funkcji na dwa możliwe sposoby:
+W chwili obecnej PHP daje możliwość zdefiniowania lambdy na dwa możliwe sposoby, z czego każda z nich ma swoje plusy i minusy. RFC odnosi się tutaj głównie do dwóch rzeczy:
+1. Nawiązywania do kontekstu zewnętrznego.
+2. Możliwości wykonania wielu wyrażeń wewnątrz funkcji anonimowej.
+
 ```php
 $y = 1;
-$fn1 = fn($x) => $x + $y;
+$fn1 = fn($x) => $x + $y; // auto-capture + single expression
 ```
 ```php
 $y = 1;
@@ -305,16 +320,6 @@ RFC proponuje wyrzucanie `E_WARNING` w momencie rzutowania wartości `float` lub
 ### 🆕 println [[RFC](https://wiki.php.net/rfc/println)]
 RFC chce dodać nową globalną funkcję `println()`, która będzie miała identyczne zachowanie co `print()`, lecz na koniec linii będzie dodawać `\n`.
 
-### 🆕 Short Functions [[RFC](https://wiki.php.net/rfc/short-functions)]
-RFC, którego celem jest umożliwienie tworzenie nazwanych funkcji/metod w skróconej formie:
-```php
-function add(int $a, int $b): int => $a + $b;
-
-class Adder
-{
-    public function add(int $in): int => $in + $this->val;
-}
-```
 
 ### 🆕 debug_backtrace_depth(int $limit=0): int [[RFC](https://wiki.php.net/rfc/debug_backtrace_depth)]
 Propozycja nowej funkcji zwracającej informację o głębokości stack strace.
